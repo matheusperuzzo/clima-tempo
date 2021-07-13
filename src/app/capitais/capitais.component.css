@@ -1,0 +1,10 @@
+.titulo {
+  color: rgb(26, 200, 223);
+  text-align: center;
+  font-size: 50px;
+}
+
+.capitais {
+  width: 60%;
+  margin: 0 auto;
+}

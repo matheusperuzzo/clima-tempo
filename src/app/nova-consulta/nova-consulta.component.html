@@ -1,0 +1,45 @@
+<div class="container">
+  <h1>Consulta de clima e tempo!</h1>
+  <div class="dx-fieldset">
+    <div class="dx-field">
+      <div class="dx-field-label">Selecione um estado:</div>
+      <div class="dx-field-value">
+        <dx-select-box
+          placeholder="Selecione um estado..."
+          [dataSource]="ufs"
+          valueExpr="sigla"
+          displayExpr="sigla"
+          [searchEnabled]="true"
+          (onValueChanged)="onSelectUf($event)"
+          [showClearButton]="true"
+        >
+        </dx-select-box>
+      </div>
+    </div>
+    <div class="dx-field">
+      <div class="dx-field-label">Selecione uma cidade:</div>
+      <div class="dx-field-value">
+        <dx-select-box
+          placeholder="Selecione uma cidade..."
+          [dataSource]="cidades"
+          valueExpr="nome"
+          displayExpr="nome"
+          [searchEnabled]="true"
+          (onValueChanged)="onSelectCidade($event)"
+        ></dx-select-box>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <h2>Consultas</h2>
+  <dx-data-grid
+    id="data-grid"
+    [dataSource]="consultas"
+    keyExpr="id"
+    [showBorders]="true"
+    [columns]="['localidade', 'temperaturaAtual', 'sensacaoTermica', 'clima']"
+  >
+  </dx-data-grid>
+</div>

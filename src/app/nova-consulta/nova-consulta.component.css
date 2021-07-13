@@ -1,0 +1,24 @@
+.container {
+  width: 650px;
+  padding: 15px 0;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: rgb(26, 200, 223);
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(26, 200, 233);
+  text-align: center;
+  font-weight: bold;
+}
+
+#data-grid {
+  width: 1150px;
+  margin: 0 auto;
+}
