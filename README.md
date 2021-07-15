@@ -5,6 +5,7 @@ Um projeto de aprendizagem utilizado para consultar o clima e a temperatura em d
 ## APIS Utilizadas
 
 API de localidade: [API de Loclidade do IBGE](https://servicodados.ibge.gov.br/api/docs/localidades);
+
 API de clima e temperatura: [Weather API - OpenWeatherMap](https://openweathermap.org/api);
 
 ## Sobre o Projeto
