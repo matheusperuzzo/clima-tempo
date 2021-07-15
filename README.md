@@ -1,27 +1,12 @@
 # ClimaTempo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.5.
+Um projeto de aprendizagem utilizado para consultar o clima e a temperatura em determinadas cidades do Brasil.
 
-## Development server
+## APIS Utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+API de localidade: [API de Loclidade do IBGE](https://servicodados.ibge.gov.br/api/docs/localidades);
+API de clima e temperatura: [Weather API - OpenWeatherMap](https://openweathermap.org/api);
 
-## Code scaffolding
+## Sobre o Projeto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Projeto realizado utilizando o [Framework Angular CLI](https://github.com/angular/angular-cli) versão 12.0.5, [Typescript](https://www.typescriptlang.org/) versão 4.2.4, [Bootstrap](https://getbootstrap.com/) versão 5.0.2 e a suite [DevExtreme](https://js.devexpress.com/);
